@@ -128,9 +128,24 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/' #already there
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #for Deployment
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]  #to check here, not only app level
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+####################################################################################
+#The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+###################################################################################
+""" SOLUTION
+
+if DEBUG:
+        STATICFILES_DIRS = [
+            os.path.join(BASE_DIR, 'static')
+       ]
+    else:
+        STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+        
+"""
 
 #LOCAL MEDIA STORAGE
 MEDIA_URL = '/media/'
