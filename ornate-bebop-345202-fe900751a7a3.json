@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ornate-bebop-345202",
+  "private_key_id": "fe900751a7a3c67e75daed42a47fb6728ced1179",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDkz4Cx5P6hIPii\n2rhrvA/JCvXjeCw7E0je70/ZO3CWthQvYKFEvwZmI8tJoBefo8xyajI4a9LS8uZc\neG5ftqapM4g8R6JSjWbwT0vp6lemAQSrz8z1TU8PaRjZ5cXw+XeAWHfB5qcjprXu\n540kqH1nB5SDRAGTJkIkiZIhmANRpqNq1uM17c9aTMUBJIDPzd3Rv859bds79A2l\nucmZy7ABrEb+gYlClvn/Rkf1YjENveIx4ERIYaWgnzcf6881Tgs7PwpJ7zhn3owO\nvfZ6B5PE28rxmZhRNSr7lnHk3t3Z9eckrmltucLuNgtmjVvWlY7NkCtkfcV4GmjR\nmRWSsIUzAgMBAAECgf9oIAXw7sTxjo+XjPFgFbUZSGOdoJKAT8ZZrY4ozWPvMez9\nonvBTS0cTi2006XsgB4J80nnYyoN1Xv/mM6hv/0YAtt8kxzLdI3jzjI9wOciJFR7\n25TqDMRtvuYQQwBRKTW4sonNM6ncD4G7tqQEiqiGumxbUBdnX4G6HuDhaMwZ2186\n+CPDbpb3B9uhaOjgbN4NBTA/62pzI1s+OAcdk36fX8blEIijjfhIHknJUxT2NJsr\nU60ANSAB3+Xlim8UIx5zBB+U8MpWndcpAe50ypFxP9f5+Ab83uHr1XKACKjxAJKS\nmFoZUhZeMnfhV0nA5FZkS6SW5kS8EPlr6lDmu8kCgYEA8rvJwj3oZBQ5qGdr1Hg7\nXivQ/hkdg+XmtFeHgcTqaGWfNJSBrR5kPGFKW/n3bxGDFnPRf2UexWH+TKPkBzgc\np049PmTP09iYVm9Jh58vGQkd8tc2SK3rqz5ab+YZXOYt6mc1N9DoWiHNU9nw6mB8\nEfXuHKktwbBTKl3f8xoCSSkCgYEA8VDpKCYCcheqBkWhgw9rgeXnsiInUzp3QEvV\nZMMSes/6nVwQf2cGjaIvaFiPTf3LrUDzpE4Xv+juCKcDwjup0IIimSOb1APxNzZP\n+V9M47JBD6Qjk9pyb7dD/N3aBwyx+3oVYG5K9QTquZOfXpNegbZhKEFDJHJxFdON\nw0lTuvsCgYEA13SQdfX1nT/GnhCOyh2etMw3yhQI+tbKnTFEeo+LcfciBc37/OqJ\nFn9VPab3VoM41Gkhf+8GDTYaP3UKJs5LwMXV3tglEWmkbrSBk/xcFeDd0HvvFzwp\nf+rs435e7PLztqi9uDmaxMZUNyWwjpnuBxNAs/gHQXF9oJGLA4IGnWECgYBysd8v\nquksqxyvwHakoTaa1dgK7Xq9byNw1tpE+waUgrd+BVz+AMy3kqdvs+/gxMkCvsVO\niaN2HlLMn/0EW3E53jBtkuQkn/8NG+5k+yvDaVzM/1m9k20itftFe3h+M0WA3iS8\n4Y8U59Jcg9KSk/6uLi39gQ9VimM/WX6enAKE8wKBgB+xuFjVctyn/QAQLsWiDL1E\n9vxLkQLEasIdxTyWcsHf2g1gd7FIjBj1YhiAHLNWSajx1KTRRwp3BlnL2OD6hWam\nJpUXfQg8qbSanN6xYsTjUXYizD3KykiEPazLqxglnSiwxTjSloqXOT4jmlNO8yl7\nU89LJlXM+cfSvaymNXwH\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcs-service@ornate-bebop-345202.iam.gserviceaccount.com",
+  "client_id": "109340771067345994877",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-service%40ornate-bebop-345202.iam.gserviceaccount.com"
+}
