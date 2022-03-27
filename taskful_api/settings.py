@@ -129,12 +129,13 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/' #already there
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #for Deployment
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]  #to check here, not only app level
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #for Deployment, folder 'staticfiles' will be created on remote server
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ####################################################################################
 #The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+#'static' and 'staticfiles' names have to be different
 ###################################################################################
 """ SOLUTION
 
