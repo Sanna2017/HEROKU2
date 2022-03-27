@@ -15,7 +15,7 @@ SECRET_KEY = '-_vyw6na+6wqn07oqwgcyw87l_g@&jy2#nh1d#+r98a9c7t1!f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['api-house-si.herokuapp.com','127.0.0.1:8000']
+ALLOWED_HOSTS = ["https://api-house-si.herokuapp.com","http://127.0.0.1:8000"]
 #127.0.0.1  # he had
 
 
