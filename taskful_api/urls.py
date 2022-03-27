@@ -37,6 +37,7 @@ from django.urls import path, include
 
 
 urlpatterns = [
+    path('', include('house.urls')),
     path('admin/', admin.site.urls),
     path('api_house/', include('house.urls')),
     path('api_accounts/', include('users.urls')),
