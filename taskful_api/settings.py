@@ -15,8 +15,10 @@ SECRET_KEY = '-_vyw6na+6wqn07oqwgcyw87l_g@&jy2#nh1d#+r98a9c7t1!f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1:8000','127.0.0.1','https://api-house-si.herokuapp.com/','api-house-si.herokuapp.com']
+#ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1:8000','127.0.0.1','https://api-house-si.herokuapp.com/','api-house-si.herokuapp.com']
 #127.0.0.1  # he had
+
+ALLOWED_HOSTS = ['127.0.0.1','api-house-si.herokuapp.com']
 
 
 # Application definition
