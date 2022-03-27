@@ -18,7 +18,7 @@ DEBUG = False
 #ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1:8000','127.0.0.1','https://api-house-si.herokuapp.com/','api-house-si.herokuapp.com']
 #127.0.0.1  # he had
 
-ALLOWED_HOSTS = ['127.0.0.1','api-house-si.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','api-house-si.herokuapp.com','localhost']
 
 
 # Application definition
@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', ###################
 ]
 
 ROOT_URLCONF = 'taskful_api.urls'
