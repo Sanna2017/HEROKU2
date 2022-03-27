@@ -15,7 +15,8 @@ SECRET_KEY = '-_vyw6na+6wqn07oqwgcyw87l_g@&jy2#nh1d#+r98a9c7t1!f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://api-house-si.herokuapp.com/']
+#127.0.0.1  # he had
 
 
 # Application definition
@@ -132,6 +133,7 @@ STATIC_URL = '/static/' #already there
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]  #to check here, not only app level
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') #for Deployment, folder 'staticfiles' will be created on remote server
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#file storage engine used when collecting static files with the collecstatic command
 
 ####################################################################################
 #The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
@@ -146,7 +148,7 @@ if DEBUG:
     else:
         STATIC_ROOT = os.path.join(BASE_DIR, 'static')
         
-"""
+""" 
 
 #LOCAL MEDIA STORAGE
 MEDIA_URL = '/media/'
