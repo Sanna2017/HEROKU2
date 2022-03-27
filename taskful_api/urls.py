@@ -32,16 +32,16 @@ urlpatterns = [
 #urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 """
 ####################  MY WAY ##############################################
-from django.contrib import admin
+
 from django.urls import path, include
+
+from rest_framework import routers 
+router = routers.DefaultRouter()
+router.register ('house', include('house.urls'))
+router.register ('accounts', include('users.urls'))
+router.register ('task', include('task.urls'))
 
 
 urlpatterns = [
-    path('', include('house.urls')),
-    path('admin/', admin.site.urls),
-    path('api_house/', include('house.urls')),
-    path('api_accounts/', include('users.urls')),
-    path('api_task/', include('task.urls')),
+    path ('',include(router.urls)),
 ]
-
-
