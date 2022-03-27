@@ -1,4 +1,3 @@
-"""
 from django.contrib import admin
 from django.urls import path, include
 
@@ -30,18 +29,4 @@ urlpatterns = [
 
 #urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 #urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-"""
-####################  MY WAY ##############################################
 
-from django.urls import path, include
-
-from rest_framework import routers 
-router = routers.DefaultRouter()
-router.register ('house', include('house.urls'))
-router.register ('accounts', include('users.urls'))
-router.register ('task', include('task.urls'))
-
-
-urlpatterns = [
-    path ('',include(router.urls)),
-]
